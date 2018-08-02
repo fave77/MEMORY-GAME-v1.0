@@ -1,0 +1,220 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url(../img/background/minimalist-background.png);
+    font-family: 'Bungee Inline', cursive;
+    user-select: none;
+    position: relative;
+}
+
+.container {
+    width: 50%;
+}
+
+.row {
+    margin-bottom: 0em !important;
+}
+
+.welcome,
+.popup {
+    width: 100%;
+    padding: 1em;
+    margin-top: 30%;
+    background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+    box-shadow: 0.75em 1em 1.25em rgba(46, 61, 73, 0.5);
+    transition-property: box-shadow;
+    transition-duration: 1s;
+}
+
+.popup {
+    font-family: 'Audiowide', cursive;
+}
+
+.welcome:hover,
+.welcome:focus,
+.popup:hover,
+.popup:focus {
+    box-shadow:  0.15em 0.25em 1.25em rgba(46, 61, 73, 0.5);
+}
+
+button {
+    font-weight: 900;
+}
+
+h2 {
+    margin: 0;
+}
+
+ul li {
+    display: inline;
+}
+
+#restart i:hover {
+    cursor: pointer;
+}
+
+.board {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+    border-radius: 10px;
+    box-shadow: 0.75em 1em 1.25em rgba(46, 61, 73, 0.5);
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    padding: 2em 0;
+    background-color: #2e3d49;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+.open {
+    background-color: #02b3c4;
+}
+
+.match {
+    background-color: #02ccba;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.circle-loader {
+    position: relative;
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    margin-bottom: 3.5em;
+    vertical-align: top;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-left-color: black;
+    animation: loader-spin 1.2s infinite linear;
+}
+
+.load-complete {
+    border-color: black;
+    animation: none;
+    transition: border 500ms ease-out;
+}
+
+.checkmark {
+    display: none;
+}
+
+.checkmark:after {
+    position: absolute;
+    top: 3.5em;
+    left: 1.75em;
+    width: 1.75em;
+    height: 3.5em;
+    content: '';
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    transform-origin: left top;
+}
+
+.draw:after {
+  animation-duration: 800ms;
+  animation-timing-function: ease;
+  animation-name: checkmark;
+  transform: scaleX(-1) rotate(135deg);
+}
+
+@keyframes loader-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes checkmark {
+    0% {
+        height: 0;
+        width: 0;
+    }
+
+    20% {
+        height: 0;
+        width: 1.75em;
+    }
+
+    40% {
+        height: 3.5em;
+        width: 1.75em;
+    }
+
+    100% {
+        height: 3.5em;
+        width: 1.75em;
+    }
+}
+
+@media only screen and (min-width: 840px) and (max-width: 960px) {
+    .container {
+        width: 60%;
+    }
+
+    .welcome {
+        margin-top: 40%;
+    }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 839px) {
+    .container {
+        width: 70%;
+    }
+
+    .welcome {
+        margin-top: 50%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 719px) {
+    .container {
+        width: 80%;
+    }
+
+    .welcome {
+        margin-top: 50%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+    .container {
+        width: 90%;
+    }
+
+    .welcome {
+        margin-top: 50%;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .container {
+        width: 95%;
+    }
+
+    .welcome {
+        margin-top: 50%;
+    }
+
+    .board {
+        padding: 0;
+    }
+
+    .card {
+        padding: 1em 0;
+    }
+}
