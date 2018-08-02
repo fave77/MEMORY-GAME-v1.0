@@ -1,6 +1,6 @@
 # MEMORY GAME v1.0
 
-** MEMORY GAME v1.0** is a browser-based online educational game that requires a player to match similar fruits! For example, 16 cards; composed of 8 pairs, face down in random order. A player turns over two cards at a time, with the goal of turning over a matching pair, by using their memory. This is also known as the [Pelmanism][1] principle, after **Christopher Louis Pelman**, a British psychologist of the 20th century.
+**MEMORY GAME v1.0** is a browser-based online educational game that requires a player to match similar fruits! For example, 16 cards; composed of 8 pairs, face down in random order. A player turns over two cards at a time, with the goal of turning over a matching pair, by using their memory. This is also known as the [Pelmanism][1] principle, after **Christopher Louis Pelman**, a British psychologist of the 20th century.
 
 > Wanna check your brain's ability to memorize? ...well now you can with this shnazzy, well-designed, feature-packed memory game!
 
@@ -35,10 +35,10 @@ The game ends when the **timer** goes to zero or player wins by matching all the
 
 ## License
 
-The MIT License 2018 - [Priyabrata Biswas][6]
+The MIT License 2018 - [Priyabrata Biswas][6].
 
 [1]: https://en.wikipedia.org/wiki/Pelmanism
-[2]: https://pbiswas101.github.io/MEMORY-GAME-v1.0
+[2]: https://pbiswas101.github.io/MEMORY-GAME-v1.0/
 [3]: https://material.io/design/
 [4]: https://materializecss.com/
 [5]: https://in.udacity.com/course/front-end-web-developer-nanodegree--nd001
