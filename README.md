@@ -38,8 +38,8 @@ The game ends when the **timer** goes to zero or player wins by matching all the
 The MIT License 2018 - [Priyabrata Biswas][6].
 
 [1]: https://en.wikipedia.org/wiki/Pelmanism
-[2]: https://pbiswas101.github.io/MEMORY-GAME-v1.0/
+[2]: https://fave77.github.io/MEMORY-GAME-v1.0/
 [3]: https://material.io/design/
 [4]: https://materializecss.com/
 [5]: https://in.udacity.com/course/front-end-web-developer-nanodegree--nd001
-[6]: http://github.com/pbiswas101
+[6]: http://github.com/fave77
